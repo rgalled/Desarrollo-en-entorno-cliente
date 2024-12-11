@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#bigContainer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.container{
+    flex: 1;
+    height: auto;
+    border: 1px solid red;
+    display: flex;
+    min-width: 400px;
+    min-height: 20vh;
+    flex-flow: row wrap;
+}
+
+.containerCard{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid black;
+}
+
+.card{
+    height: 100px;
+    width: 70px;
+    border: 1px solid black;
+    margin: 5px;
+}
